@@ -1,5 +1,6 @@
 import librosa
 import numpy as np
+import warnings
 
 def extract_pitch(y, sr, hop_length, fmin, fmax):
     """
